@@ -26,7 +26,7 @@
   title = {Representational Homomorphism Error Predicts Compositional Generalization In Language Models},
   author = {An, Zhiyu and Du, Wan},
   pages = {1-12},
-    abstract = {Compositional generalization—the ability to understand novel combinations of familiar components—remains a significant challenge for neural networks despite their success in many language tasks.    Current evaluation methods focus on behavioral measures that reveal \emph{when} models fail to generalize compositionally, but provide limited insight into \emph{why} these failures occur at the representational level.    We introduce \textit{Homomorphism Error} (HE), a structural metric that quantifies how well neural network representations preserve compositional operations by measuring deviations from approximate homomorphisms between expression spaces and their internal representations.    Through controlled experiments on SCAN-style synthetic compositional tasks and small-scale Transformers, we demonstrate that HE serves as a strong predictor of out-of-distribution generalization performance, achieving $R^2 = 0.73$ correlation with OOD compositional generalization accuracy.    Furthermore, our analysis reveals that model architecture has minimal impact on compositional structure, training data coverage exhibits threshold effects, but noise injection systematically degrades compositional representations in predictable ways.    Importantly, we find that different aspects of compositionality—unary operations (modifiers) versus binary operations (sequence composition)—exhibit distinct sensitivities to distributional shifts, with modifier representations being particularly vulnerable to spurious correlations.    These findings provide new mechanistic insights into compositional learning and establish homomorphism error as a valuable diagnostic tool for developing more robust neural architectures training methods.      Code and data will be made publicaly available.},
+    abstract = {Compositional generalization---the ability to understand novel combinations of familiar components---remains a significant challenge for neural networks despite their success in many language tasks.    Current evaluation methods focus on behavioral measures that reveal \emph{when} models fail to generalize compositionally, but provide limited insight into \emph{why} these failures occur at the representational level.    We introduce \textit{Homomorphism Error} (HE), a structural metric that quantifies how well neural network representations preserve compositional operations by measuring deviations from approximate homomorphisms between expression spaces and their internal representations.    Through controlled experiments on SCAN-style synthetic compositional tasks and small-scale Transformers, we demonstrate that HE serves as a strong predictor of out-of-distribution generalization performance, achieving $R^2 = 0.73$ correlation with OOD compositional generalization accuracy.    Furthermore, our analysis reveals that model architecture has minimal impact on compositional structure, training data coverage exhibits threshold effects, but noise injection systematically degrades compositional representations in predictable ways.    Importantly, we find that different aspects of compositionality---unary operations (modifiers) versus binary operations (sequence composition)---exhibit distinct sensitivities to distributional shifts, with modifier representations being particularly vulnerable to spurious correlations.    These findings provide new mechanistic insights into compositional learning and establish homomorphism error as a valuable diagnostic tool for developing more robust neural architectures training methods.      Code and data will be made publicaly available.},
     section = {NeurReps 2025},
 }
 
@@ -58,7 +58,7 @@
   title = {Tracking Memorization Geometry throughout the Diffusion Model Generative Process},
   author = {Brokman, Jonathan and Gershon, Itay and Hofman, Omer and Gilboa, Guy and Vainshtein, Roman},
   pages = {73-86},
-    abstract = {Memorization in generative text-to-image diffusion models is a phenomenon where instead of valid image generations, the model outputs near-verbatim reproductions of training images. This poses privacy and copyright risks, and remains difficult to prevent without harming prompt fidelity. We present a mid-generation,  geometry-informed criterion that detects, and then helps avoid (mitigate), memorized outputs. Our method analyzes the natural image distribution manifold as learnt by the diffusion model. We analyze a memorization criterion that has a local curvature interpretation. Thus we can track the generative process, and our criterion's trajectory throughout it, to understand typical geometrical structures traversed throughout this process. This is harnessed as a geometry-aware indicator that distinguishes memorized from valid generations. Notably, our criterion uses only the direction of the normalized score field, unlike prior magnitude-based methods; combining direction and magnitude we improve mid-generation detection SOTA by $\sim 5\%$. Beyond detecting memorization, we use this indicator as a plug-in to a mitigation policy to steer trajectories away from memorized basins while preserving alignment to the text. Empirically, this  demonstrates improved fidelity–memorization trade-off over the competitors. By linking memorization to magnitude-invariant geometric signatures of the generative process, our work opens a new direction for understanding—and systematically mitigating—failure modes in diffusion models.},
+    abstract = {Memorization in generative text-to-image diffusion models is a phenomenon where instead of valid image generations, the model outputs near-verbatim reproductions of training images. This poses privacy and copyright risks, and remains difficult to prevent without harming prompt fidelity. We present a mid-generation,  geometry-informed criterion that detects, and then helps avoid (mitigate), memorized outputs. Our method analyzes the natural image distribution manifold as learnt by the diffusion model. We analyze a memorization criterion that has a local curvature interpretation. Thus we can track the generative process, and our criterion's trajectory throughout it, to understand typical geometrical structures traversed throughout this process. This is harnessed as a geometry-aware indicator that distinguishes memorized from valid generations. Notably, our criterion uses only the direction of the normalized score field, unlike prior magnitude-based methods; combining direction and magnitude we improve mid-generation detection SOTA by $\sim 5\%$. Beyond detecting memorization, we use this indicator as a plug-in to a mitigation policy to steer trajectories away from memorized basins while preserving alignment to the text. Empirically, this  demonstrates improved fidelity--memorization trade-off over the competitors. By linking memorization to magnitude-invariant geometric signatures of the generative process, our work opens a new direction for understanding---and systematically mitigating---failure modes in diffusion models.},
     section = {NeurReps 2025},
 }
 
@@ -74,7 +74,7 @@
   title = {Geometric Priors for Generalizable World Models via Vector Symbolic Architecture},
   author = {Chung, William Youngwoo and Yeung, Calvin and Lillemark, Hansen and Zou, Zhuowen and Liu, Xiangjian and Imani, Mohsen},
   pages = {117-132},
-    abstract = {A key challenge in artificial intelligence and neuroscience is understanding how neural systems learn representations that capture the underlying dynamics of the world. Most world models represent the transition function with unstructured neural networks, limiting interpretability, sample efficiency, and generalization to unseen states or action compositions. We address these issues with a generalizable world model grounded in \textit{Vector Symbolic Architecture} (VSA) principles as geometric priors. Our approach utilizes learnable Fourier Holographic Reduced Representation (FHRR) encoders to map states and actions into a high-dimensional complex vector space with learned group structure and models transitions with element-wise complex multiplication. We formalize the framework’s group-theoretic foundation and show how training such structured representations to be approximately invariant enables strong multi-step composition directly in latent space and generalization performances over various experiments. On a discrete grid world environment, our model achieves 87.5\% zero-shot accuracy to unseen state-action pairs, obtains 53.6\% higher accuracy on 20-timestep horizon rollouts, and demonstrates $4\times$ higher robustness to noise relative to an MLP baseline. These results highlight how training to have latent group structure yields generalizable, data-efficient, and interpretable world models, providing a principled pathway toward structured models for real-world planning and reasoning.},
+    abstract = {A key challenge in artificial intelligence and neuroscience is understanding how neural systems learn representations that capture the underlying dynamics of the world. Most world models represent the transition function with unstructured neural networks, limiting interpretability, sample efficiency, and generalization to unseen states or action compositions. We address these issues with a generalizable world model grounded in \textit{Vector Symbolic Architecture} (VSA) principles as geometric priors. Our approach utilizes learnable Fourier Holographic Reduced Representation (FHRR) encoders to map states and actions into a high-dimensional complex vector space with learned group structure and models transitions with element-wise complex multiplication. We formalize the framework's group-theoretic foundation and show how training such structured representations to be approximately invariant enables strong multi-step composition directly in latent space and generalization performances over various experiments. On a discrete grid world environment, our model achieves 87.5\% zero-shot accuracy to unseen state-action pairs, obtains 53.6\% higher accuracy on 20-timestep horizon rollouts, and demonstrates $4\times$ higher robustness to noise relative to an MLP baseline. These results highlight how training to have latent group structure yields generalizable, data-efficient, and interpretable world models, providing a principled pathway toward structured models for real-world planning and reasoning.},
     section = {NeurReps 2025},
 }
 
@@ -98,15 +98,15 @@
   title = {Contrastive Learning with Latent Tension Regularization for Tight Orbits},
   author = {Ghosal, Ritwik},
   pages = {174-199},
-    abstract = {In self-supervised contrastive learning, multiple augmentations of the same input naturally form a set of latent representations, or an orbit. Ideally, these representations should remain compact and directionally consistent under transformations. Standard methods such as SimCLR prioritize separating different samples but do not explicitly enforce intra-orbit coherence, allowing augmented views of the same input to drift in latent space. We propose Orbit Regularization Loss (ORL), a lightweight extension to the Normalized Temperature-scaled Cross-Entropy (NT-Xent) loss that reweights negative pairs based on a tension score - a measure of alignment between the positive-pair direction and the candidate negative’s displacement. This encourages augmented views to align along stable latent directions, reducing orbit spread without architectural changes or additional supervision. For now, ORL is aimed at improving the geometric structure of embeddings, rather than directly targeting downstream classification accuracy. Experiments on MNIST and CIFAR-10 show that ORL lowers intra-orbit variance, improves directional consistency, and yields a more coherent latent space geometry compared to the NT-Xent baseline.},
+    abstract = {In self-supervised contrastive learning, multiple augmentations of the same input naturally form a set of latent representations, or an orbit. Ideally, these representations should remain compact and directionally consistent under transformations. Standard methods such as SimCLR prioritize separating different samples but do not explicitly enforce intra-orbit coherence, allowing augmented views of the same input to drift in latent space. We propose Orbit Regularization Loss (ORL), a lightweight extension to the Normalized Temperature-scaled Cross-Entropy (NT-Xent) loss that reweights negative pairs based on a tension score - a measure of alignment between the positive-pair direction and the candidate negative's displacement. This encourages augmented views to align along stable latent directions, reducing orbit spread without architectural changes or additional supervision. For now, ORL is aimed at improving the geometric structure of embeddings, rather than directly targeting downstream classification accuracy. Experiments on MNIST and CIFAR-10 show that ORL lowers intra-orbit variance, improves directional consistency, and yields a more coherent latent space geometry compared to the NT-Xent baseline.},
     section = {NeurReps 2025},
 }
 
 @InProceedings{ghosh25a,
-  title = {Why all roads don’t lead to Rome: Representation geometry varies across the human visual cortical hierarchy},
+  title = {Why all roads don't lead to Rome: Representation geometry varies across the human visual cortical hierarchy},
   author = {Ghosh, Arna and Chorghay, Zahraa and Bakhtiari, Shahab and Richards, Blake Aaron},
   pages = {200-212},
-    abstract = {Biological and artificial intelligence systems navigate the fundamental efficiency-robustness tradeoff for optimal encoding, i.e., they must efficiently encode numerous attributes of the input space while also being robust to noise. This challenge is particularly evident in hierarchical processing systems like the human brain. With a view towards understanding how systems navigate the efficiency-robustness tradeoff, we turned to a population geometry framework for analyzing representations in the human visual cortex alongside artificial neural networks (ANNs). In the ventral visual stream, we found general-purpose, scale-free representations characterized by a power law-decaying eigenspectrum in most areas. However, in certain higher-order visual areas did not have scale-free representations, indicating that scale-free geometry is not a universal property of the brain. In parallel, ANNs trained with a self-supervised learning objective also exhibited scale-free geometry, but not after fine-tuning on a specific task. Based on these empirical results and our analytical insights, we posit that a system’s representation geometry is not a universal property and instead depends upon the computational objective.},
+    abstract = {Biological and artificial intelligence systems navigate the fundamental efficiency-robustness tradeoff for optimal encoding, i.e., they must efficiently encode numerous attributes of the input space while also being robust to noise. This challenge is particularly evident in hierarchical processing systems like the human brain. With a view towards understanding how systems navigate the efficiency-robustness tradeoff, we turned to a population geometry framework for analyzing representations in the human visual cortex alongside artificial neural networks (ANNs). In the ventral visual stream, we found general-purpose, scale-free representations characterized by a power law-decaying eigenspectrum in most areas. However, in certain higher-order visual areas did not have scale-free representations, indicating that scale-free geometry is not a universal property of the brain. In parallel, ANNs trained with a self-supervised learning objective also exhibited scale-free geometry, but not after fine-tuning on a specific task. Based on these empirical results and our analytical insights, we posit that a system's representation geometry is not a universal property and instead depends upon the computational objective.},
     section = {NeurReps 2025},
 }
 
@@ -122,7 +122,7 @@
   title = {Covering Relations in the Poset of Combinatorial Neural Codes},
   author = {Trang, Trong-Thuc and Jeffs, R. Amzi},
   pages = {225-242},
-    abstract = {A combinatorial neural code is a subset of the power set $2^{[n]}$ on $[n]=\{1,\dots, n\}$, in which each $1\leq i\leq n$ represents a neuron and each element (codeword) represents the co-firing event of some neurons. Consider a space $X\subseteq\mathbb{R}^d$, simulating an animal's environment, and a collection $\mathcal{U}=\{U_1,…,U_n\}$ of open subsets of $X$. Each $U_i\subseteq X$ simulates a place field which is a specific region where a place cell $i$ is active. Then, the code of $\mathcal{U}$ in $X$ is defined as $\textnormal{code}(\mathcal{U},X)=\{ \sigma\subseteq[n]\bigg|\bigcap_{i\in\sigma} U_i\setminus\bigcup_{j\notin\sigma}U_j\neq\varnothing \}$. If a neural code $\mathcal{C}=\mbox{code}(\mathcal{U},X)$ for some $X$ and $\mathcal{U}$, we say $\mathcal{C}$ has a realization of open subsets of some space $X$. Although every combinatorial neural code obviously has a realization by some open subsets, determining whether it has a realization by some open convex subsets remains unsolved. Many studies attempted to tackle this decision problem, but only partial results were achieved. In fact, a previous study showed that the decision problem of convex neural codes is NP-hard. Furthermore, the authors of this study conjectured that every convex neural code can be realized as a minor of a neural code arising from a representable oriented matroid, which can lead to an equivalence between convex and polytope convex neural codes. Even though this conjecture has been confirmed in dimension two, its validity in higher dimensions is still unknown. To advance the investigation of this conjecture, we provide a complete characterization of the covering relations within the poset $\mathbf{P_{Code}}$ of neural codes.},
+    abstract = {A combinatorial neural code is a subset of the power set $2^{[n]}$ on $[n]=\{1,\dots, n\}$, in which each $1\leq i\leq n$ represents a neuron and each element (codeword) represents the co-firing event of some neurons. Consider a space $X\subseteq\mathbb{R}^d$, simulating an animal's environment, and a collection $\mathcal{U}=\{U_1,\ldots ,U_n\}$ of open subsets of $X$. Each $U_i\subseteq X$ simulates a place field which is a specific region where a place cell $i$ is active. Then, the code of $\mathcal{U}$ in $X$ is defined as $\textnormal{code}(\mathcal{U},X)=\{ \sigma\subseteq[n]\bigg|\bigcap_{i\in\sigma} U_i\setminus\bigcup_{j\notin\sigma}U_j\neq\varnothing \}$. If a neural code $\mathcal{C}=\mbox{code}(\mathcal{U},X)$ for some $X$ and $\mathcal{U}$, we say $\mathcal{C}$ has a realization of open subsets of some space $X$. Although every combinatorial neural code obviously has a realization by some open subsets, determining whether it has a realization by some open convex subsets remains unsolved. Many studies attempted to tackle this decision problem, but only partial results were achieved. In fact, a previous study showed that the decision problem of convex neural codes is NP-hard. Furthermore, the authors of this study conjectured that every convex neural code can be realized as a minor of a neural code arising from a representable oriented matroid, which can lead to an equivalence between convex and polytope convex neural codes. Even though this conjecture has been confirmed in dimension two, its validity in higher dimensions is still unknown. To advance the investigation of this conjecture, we provide a complete characterization of the covering relations within the poset $\mathbf{P_{Code}}$ of neural codes.},
     section = {NeurReps 2025},
 }
 
@@ -154,13 +154,13 @@
   title = {Learning from Frustration: Torsor CNNs on Graphs},
   author = {Li, Daiyuan and Arya, Shreya and Ghrist, Robert},
   pages = {298-315},
-    abstract = {Most equivariant neural networks rely on a single global symmetry, limiting their use in domains where symmetries are instead local. We introduce Torsor CNNs, a framework for learning on graphs with local symmetries encoded as edge potentials—group-valued transformations between neighboring coordinate frames. We establish that this geometric construction is fundamentally equivalent to the classical group synchronization problem, yielding: (1) a Torsor Convolutional Layer that is provably equivariant to local changes in coordinate frames, and (2) the frustration loss—a standalone geometric regularizer that encourages locally equivariant representations when added to any NN's training objective. The Torsor CNN framework unifies and generalizes several architectures—including classical CNNs and Gauge CNNs on manifolds—by operating on arbitrary graphs without requiring a global coordinate system or smooth manifold structure. We establish the mathematical foundations of this framework and demonstrate its applicability to multi-view 3D recognition, where relative camera poses naturally define the required edge potentials.},
+    abstract = {Most equivariant neural networks rely on a single global symmetry, limiting their use in domains where symmetries are instead local. We introduce Torsor CNNs, a framework for learning on graphs with local symmetries encoded as edge potentials---group-valued transformations between neighboring coordinate frames. We establish that this geometric construction is fundamentally equivalent to the classical group synchronization problem, yielding: (1) a Torsor Convolutional Layer that is provably equivariant to local changes in coordinate frames, and (2) the frustration loss---a standalone geometric regularizer that encourages locally equivariant representations when added to any NN's training objective. The Torsor CNN framework unifies and generalizes several architectures---including classical CNNs and Gauge CNNs on manifolds---by operating on arbitrary graphs without requiring a global coordinate system or smooth manifold structure. We establish the mathematical foundations of this framework and demonstrate its applicability to multi-view 3D recognition, where relative camera poses naturally define the required edge potentials.},
     section = {NeurReps 2025},
 }
 
 @InProceedings{lizemasclef25a,
   title = {Dual-Stream EEG Decoding for 3D Visual Perception},
-  author = {Masclef, Ninon Lizé and Demcenko, Taisija and Catanzaro, Antonella and Kosmyna, Nataliya},
+  author = {Masclef, Ninon Liz\'e and Demcenko, Taisija and Catanzaro, Antonella and Kosmyna, Nataliya},
   pages = {316-332},
     abstract = {This paper explores a novel brain decoding model for 3D shape perception through a dual pathway architecture mirroring biological vision. Our bio-inspired approach decomposes 3D visual processing into object identity (ventral pathway) and spatial orientation (dorsal pathway) during continuous rotations. We employ circular regression for angle prediction and develop EEG-conditioned multiview diffusion for 3D reconstruction. Our approach successfully decodes both object identity and spatial orientation from EEG signals and demonstrates feasible 3D reconstruction from neural activity, with interpretability analysis revealing ventral pathway activation patterns that support object recognition performance.},
     section = {NeurReps 2025},
@@ -192,7 +192,7 @@
 
 @InProceedings{michel25a,
   title = {Learning representations on Lp hyperspheres: The equivalence of loss functions in a MAP approach},
-  author = {Michel, Nicolas and BERCHER, Jean-François and Yamasaki, Toshihiko},
+  author = {Michel, Nicolas and BERCHER, Jean-Fran\c{c}ois and Yamasaki, Toshihiko},
   pages = {392-414},
     abstract = {A common practice when training Deep Neural Networks is to force the learned representations to lie on the standard unit hypersphere, with respect to the  $L_2$ norms. Such practice has been shown to improve both the stability and final performances of DNNs in many applications. In this paper, we derive a unified theoretical framework for learning representation on any $L_p$ hyperspheres for classification tasks, based on Maximum A Posteriori (MAP) modeling. Specifically, we give an expression of the probability distribution of multivariate Gaussians projected on any $L_p$ hypersphere and derive the general associated loss function. Additionally, we show that this framework demonstrates the theoretical equivalence of all projections on $L_p$ hyperspheres through the MAP modeling. It also provides a new interpretation of traditional Softmax Cross Entropy with temperature (SCE-$\tau$) loss functions. Experiments on standard computer vision datasets give an empirical validation of the equivalence of projections on $L_p$ unit hyperspheres when using adequate objectives. It also shows that the SCE-$\tau$ on projected representations, with optimally chosen temperature, shows comparable performances.},
     section = {NeurReps 2025},
@@ -202,15 +202,15 @@
   title = {LFMA: Parameter-Efficient Fine-Tuning via Layerwise Fourier Masked Adapter with Top-k Frequency Selection},
   author = {Junyoung.Park and Kim, Soo Yong and Lee, Sang Heon and Lee, Jeonghwan},
   pages = {415-427},
-    abstract = {Low-Rank Adaptation (LoRA) has been widely adopted as a Parameter Efficient Fine-Tuning method for large models such as Large Language Models (LLMs) and Vision Transformer (ViT). However, it encounters scalability limitations, particularly in storage and deployment efficiency, when applied to large foundational models or a wide range of task-specific adaptations, due to the overhead of managing multiple adapters and the reliance on linearly constrained spaces for representation. To address these limitations, Fourier Fine-Tuning (FourierFT) has emerged as an alternative, leveraging the Fourier transform to achieve comparable or superior performance to LoRA while utilizing significantly fewer trainable parameters. Nevertheless, FourierFT targets the entire frequency spectrum to apply updates, which may cause inefficiency, particularly when the meaningful information is concentrated within a specific set of frequency components. The magnitude of each Fourier component reflects its contribution to the original weight update. Thus, selecting Top‑K components with the highest magnitudes effectively captures the most informative changes. Therefore, we propose Layerwise Fourier Masked Adapter (LFMA), which selectively fine-tunes using Top-K informative frequency components and resulting in an enhancement of both parameter efficiency and task-specific adaptation. Empirically, we showed similar or better performance than FourierFT in four tasks: image classification, instruction tuning, natural language generation, and natural language understanding. These results demonstrate that selectively fine-tuning in the most informative frequency components is able to push the limits of adapter-based fine-tuning further in terms of scalability and expressivity.},
+    abstract = {Low-Rank Adaptation (LoRA) has been widely adopted as a Parameter Efficient Fine-Tuning method for large models such as Large Language Models (LLMs) and Vision Transformer (ViT). However, it encounters scalability limitations, particularly in storage and deployment efficiency, when applied to large foundational models or a wide range of task-specific adaptations, due to the overhead of managing multiple adapters and the reliance on linearly constrained spaces for representation. To address these limitations, Fourier Fine-Tuning (FourierFT) has emerged as an alternative, leveraging the Fourier transform to achieve comparable or superior performance to LoRA while utilizing significantly fewer trainable parameters. Nevertheless, FourierFT targets the entire frequency spectrum to apply updates, which may cause inefficiency, particularly when the meaningful information is concentrated within a specific set of frequency components. The magnitude of each Fourier component reflects its contribution to the original weight update. Thus, selecting Top-K components with the highest magnitudes effectively captures the most informative changes. Therefore, we propose Layerwise Fourier Masked Adapter (LFMA), which selectively fine-tunes using Top-K informative frequency components and resulting in an enhancement of both parameter efficiency and task-specific adaptation. Empirically, we showed similar or better performance than FourierFT in four tasks: image classification, instruction tuning, natural language generation, and natural language understanding. These results demonstrate that selectively fine-tuning in the most informative frequency components is able to push the limits of adapter-based fine-tuning further in terms of scalability and expressivity.},
     section = {NeurReps 2025},
 }
 
 @InProceedings{ruffini25a,
-  title = {Compositional Symmetry as Compression: Lie‑Pseudogroup Structure in Algorithmic Agents},
+  title = {Compositional Symmetry as Compression: Lie-Pseudogroup Structure in Algorithmic Agents},
   author = {Ruffini, Giulio},
   pages = {428-444},
-    abstract = {In the algorithmic (Kolmogorov) view, agents are programs that track and compress sensory streams using generative programs. We propose a framework where the relevant structural prior is simplicity (Solomonoff) as \emph{compositional symmetry}, where natural streams are well described by (local) actions of finite‑parameter Lie pseudogroups on geometrically and topologically complex low‑dimensional configuration manifolds (latent spaces). Modeling the agent as a generic neural dynamical system coupled to such streams, we show that accurate world‑tracking imposes (i) \emph{structural} constraints (equivariance of the agent system constitutive equations and readouts) and (ii) \emph{dynamical} constraints: under static inputs, symmetry induces conserved quantities (Noether‑style labels) in agent dynamics and confines trajectories to reduced invariant manifolds; under slow drift, these manifolds move but remain low‑dimensional. This yields a hierarchy of reduced manifolds aligned with the compositional factorization of the pseudogroup---a geometric account of the ``blessing of compositionality'' in deep models. We connect these ideas, at a high level, to the Spencer formalism for Lie pseudogroups, and formulate a symmetry‑based, self‑contained version of predictive coding in which higher layers receive only \emph{coarse-grained residual transformations} (prediction‑error coordinates) along symmetry directions unresolved at lower layers.},
+    abstract = {In the algorithmic (Kolmogorov) view, agents are programs that track and compress sensory streams using generative programs. We propose a framework where the relevant structural prior is simplicity (Solomonoff) as \emph{compositional symmetry}, where natural streams are well described by (local) actions of finite-parameter Lie pseudogroups on geometrically and topologically complex low-dimensional configuration manifolds (latent spaces). Modeling the agent as a generic neural dynamical system coupled to such streams, we show that accurate world-tracking imposes (i) \emph{structural} constraints (equivariance of the agent system constitutive equations and readouts) and (ii) \emph{dynamical} constraints: under static inputs, symmetry induces conserved quantities (Noether-style labels) in agent dynamics and confines trajectories to reduced invariant manifolds; under slow drift, these manifolds move but remain low-dimensional. This yields a hierarchy of reduced manifolds aligned with the compositional factorization of the pseudogroup---a geometric account of the ``blessing of compositionality'' in deep models. We connect these ideas, at a high level, to the Spencer formalism for Lie pseudogroups, and formulate a symmetry-based, self-contained version of predictive coding in which higher layers receive only \emph{coarse-grained residual transformations} (prediction-error coordinates) along symmetry directions unresolved at lower layers.},
     section = {NeurReps 2025},
 }
 
@@ -250,13 +250,13 @@
   title = {Causal Geometry of Batch Size and Generalisation},
   author = {Sun, Zhongtian and Harit, Anoushka and Lio, Pietro},
   pages = {529-553},
-    abstract = {Batch size strongly influences optimisation, yet its role in non-Euclidean learning remains poorly understood. We propose \textbf{HGCNet}, a causally inspired hypergraph-based Deep Structural Causal Model that treats batch size as an intervention and organises its effects through stochastic mediators (gradient noise, sharpness, complexity) and a geometric proxy via Ollivier–Ricci curvature. Curvature is endogenous to the training recipe and, together with a curvature-aware regulariser, serves as a diagnostic of geometric stability rather than an isolated intervention. Experiments on graph and text benchmarks show consistent $2$–$4\%$ accuracy improvements over strong baselines, providing the first causally structured analysis of how batch size shapes generalisation beyond vision.},
+    abstract = {Batch size strongly influences optimisation, yet its role in non-Euclidean learning remains poorly understood. We propose \textbf{HGCNet}, a causally inspired hypergraph-based Deep Structural Causal Model that treats batch size as an intervention and organises its effects through stochastic mediators (gradient noise, sharpness, complexity) and a geometric proxy via Ollivier--Ricci curvature. Curvature is endogenous to the training recipe and, together with a curvature-aware regulariser, serves as a diagnostic of geometric stability rather than an isolated intervention. Experiments on graph and text benchmarks show consistent $2$--$4\%$ accuracy improvements over strong baselines, providing the first causally structured analysis of how batch size shapes generalisation beyond vision.},
     section = {NeurReps 2025},
 }
 
 @InProceedings{saezdeocarizborde25a,
   title = {Beyond Parallelism: Synergistic Computational Graph Effects in Multi-Head Attention},
-  author = {Borde, Haitz Sáez de Ocáriz},
+  author = {Borde, Haitz S\'aez de Oc\'ariz},
   pages = {554-569},
     abstract = {Multi-head attention powers Transformer networks, the primary deep learning architecture behind the success of large language models~(LLMs). Yet, the theoretical advantages of multi-head versus single-head attention, beyond mere parallel processing, remain underexplored. In this paper, we reframe multi-head attention as a system of potentially synergistic computational graphs, where each head functions as a feedforward directed acyclic graph (DAG) with a common sink state. We provide intuition and preliminary theoretical analysis of mixing time and minimax fidelity in this framework. Our results show that multi-head attention can synergistically enhance information propagation, yielding faster mixing times and minimax fidelity amplification under specific head-diversity conditions. Finally, we train single-head and multi-head Transformers, each with the same total number of parameters, on sequence manipulation tasks and empirically verify the predicted effects. The code is available at https://github.com/haitzsaezdeocariz/beyondparallelism.},
     section = {NeurReps 2025},
@@ -282,7 +282,7 @@
   title = {Complete Characterization of Gauge Symmetries in Transformer Architectures},
   author = {Wang, Hong and Wang, Kelly},
   pages = {622-663},
-    abstract = {Modern Transformers possess redundant parameter symmetries that leave their function unchanged. We establish the complete gauge group structure for the canonical Transformer family, which encompasses standard architectures including GPT-2, BERT, LLaMA, and Qwen.  For canonical Transformers with standard multi-head attention, we prove global maximality: the gauge group equals exactly      G_max = ((GL(d_k))^h × (GL(d_v))^h) ⋊ S_h  on the generic stratum where projection matrices have full column rank and head-wise attention controllability holds.  For architectures with rotary position embeddings (RoPE) or relative encodings, as used in LLaMA and Qwen, the gauge group becomes      G_RoPE = ((C_RoPE)^h × (GL(d_v))^h) ⋊ S_h  where C_RoPE is the commutant of the position-dependent rotations—typically reducing to (GL(1,ℂ))^{d_k/2} for standard RoPE implementations.  We prove maximality through three key results: characterizing the Lie algebra of infinitesimal symmetries as      𝔤_max = ⨁_{i=1}^h 𝔤𝔩(d_k) ⊕ ⨁_{i=1}^h 𝔤𝔩(d_v)  for canonical models, establishing that attention weights must be preserved up to head permutation under gauge equivalence, and demonstrating that query–key and value–output transformations necessarily factorize independently.  These gauge symmetries persist through LayerNorm and extend to complete architectures, with the full model gauge group being      G_Model = ∏_{l=1}^L G_Layer^{(l)}  Our characterization reveals over 1.1 million redundant dimensions in a 110M parameter Transformer Base model. Experiments on pretrained GPT-2 models from 124M to 1.5B parameters confirm that valid gauge transformations preserve model outputs to machine precision, while invalid transformations produce large errors, empirically supporting maximality.},
+    abstract = {Modern Transformers possess redundant parameter symmetries that leave their function unchanged. We establish the complete gauge group structure for the canonical Transformer family, which encompasses standard architectures including GPT-2, BERT, LLaMA, and Qwen.  For canonical Transformers with standard multi-head attention, we prove global maximality: the gauge group equals exactly $G_{max} = ((GL(d_k))^h \times (GL(d_v))^h) \rtimes S_h$ on the generic stratum where projection matrices have full column rank and head-wise attention controllability holds.  For architectures with rotary position embeddings (RoPE) or relative encodings, as used in LLaMA and Qwen, the gauge group becomes $G_{RoPE} = ((C_{RoPE})^h \times (GL(d_v))^h) \rtimes S_h$ where $C_{RoPE}$ is the commutant of the position-dependent rotations---typically reducing to $(GL(1,\mathbb{C}))^{d_k/2}$ for standard RoPE implementations.  We prove maximality through three key results: characterizing the Lie algebra of infinitesimal symmetries as $\mathfrak{g}_{max} = \bigoplus_{i=1}^h \mathfrak{gl}(d_k) \oplus \bigoplus_{i=1}^h \mathfrak{gl}(d_v)$ for canonical models, establishing that attention weights must be preserved up to head permutation under gauge equivalence, and demonstrating that query--key and value--output transformations necessarily factorize independently.  These gauge symmetries persist through LayerNorm and extend to complete architectures, with the full model gauge group being $G_{Model} = \prod_{l=1}^L G_{Layer}^{(l)}$ Our characterization reveals over 1.1 million redundant dimensions in a 110M parameter Transformer Base model. Experiments on pretrained GPT-2 models from 124M to 1.5B parameters confirm that valid gauge transformations preserve model outputs to machine precision, while invalid transformations produce large errors, empirically supporting maximality.},
     section = {NeurReps 2025},
 }
 
@@ -290,7 +290,7 @@
   title = {Gauge Fiber Bundle Geometry of Transformers},
   author = {Wang, Hong and Wang, Kelly},
   pages = {664-684},
-    abstract = {We give a geometry-first account of Transformers with GeLU. Building on a companion NeurReps paper that completely characterizes the head-wise gauge symmetries of multi-head attention, we treat the maximal head-wise symmetry group as given and study the induced geometry on the resulting quotient of functionally distinct models. On a generic regular set of parameters, this symmetry group acts freely and properly, so the parameter space fibers over a quotient manifold with gauge orbits as fibers. We establish an Ehresmann connection using the ambient Euclidean metric, which resolves the degeneracy of the Fisher–Rao (FR) metric along gauge directions. This framework clarifies that the natural gradient is the horizontal Riesz representative of the Euclidean gradient with respect to the FR geometry on the quotient. We show the connection has generically nonzero curvature, implying path-dependent holonomy in parameter updates. We also clarify the roles of the Attention (MHA) and FFN blocks: while MHA parameters possess gauge symmetry, FFN gradients are strictly horizontal as the FFN parameters are invariant under the MHA gauge group. We turn these ideas into practical diagnostics—a gauge-aware gradient split and a small-loop holonomy estimator—and report consistency checks aligning with the theory. Architectural choices such as RoPE appear as principled gauge reductions (e.g., per-head Q/K dimension from dₖ² to dₖ).},
+    abstract = {We give a geometry-first account of Transformers with GeLU. Building on a companion NeurReps paper that completely characterizes the head-wise gauge symmetries of multi-head attention, we treat the maximal head-wise symmetry group as given and study the induced geometry on the resulting quotient of functionally distinct models. On a generic regular set of parameters, this symmetry group acts freely and properly, so the parameter space fibers over a quotient manifold with gauge orbits as fibers. We establish an Ehresmann connection using the ambient Euclidean metric, which resolves the degeneracy of the Fisher--Rao (FR) metric along gauge directions. This framework clarifies that the natural gradient is the horizontal Riesz representative of the Euclidean gradient with respect to the FR geometry on the quotient. We show the connection has generically nonzero curvature, implying path-dependent holonomy in parameter updates. We also clarify the roles of the Attention (MHA) and FFN blocks: while MHA parameters possess gauge symmetry, FFN gradients are strictly horizontal as the FFN parameters are invariant under the MHA gauge group. We turn these ideas into practical diagnostics---a gauge-aware gradient split and a small-loop holonomy estimator---and report consistency checks aligning with the theory. Architectural choices such as RoPE appear as principled gauge reductions (e.g., per-head Q/K dimension from $d_k^2$ to $d_k$).},
     section = {NeurReps 2025},
 }
 
@@ -306,7 +306,7 @@
   title = {Balancing Fairness and Accuracy in Graph Learning via Fairness-Constrained Rewiring},
   author = {Wang, Jason and Fesser, Lukas and Weber, Melanie},
   pages = {716-735},
-    abstract = {Algorithmic fairness aims to ensure the safe and responsible use of machine learning tools in applications across domains. In graph learning, several “fair rewiring” approaches have been proposed that perturb edges in the input graph to mitigate feature and relational bias. However, these approaches can lead to a decrease in accuracy in downstream tasks. On the other hand, classical rewiring approaches improve accuracy by mitigating over-smoothing and over-squashing effects induced by the graph’s topology. In this work we show that those classical rewiring approaches reinforce existing topological biases and boost accuracy at the cost of fairness. We propose a novel fairness metric (topological bias) that allows for evaluating relational bias separately from feature bias. We then propose a fairness constraint that can be incorporated into classical rewiring techniques to mitigate topological bias. We show that the resulting fairness-constrained rewiring balances fairness and accuracy effectively in graph learning tasks.},
+    abstract = {Algorithmic fairness aims to ensure the safe and responsible use of machine learning tools in applications across domains. In graph learning, several ``fair rewiring'' approaches have been proposed that perturb edges in the input graph to mitigate feature and relational bias. However, these approaches can lead to a decrease in accuracy in downstream tasks. On the other hand, classical rewiring approaches improve accuracy by mitigating over-smoothing and over-squashing effects induced by the graph's topology. In this work we show that those classical rewiring approaches reinforce existing topological biases and boost accuracy at the cost of fairness. We propose a novel fairness metric (topological bias) that allows for evaluating relational bias separately from feature bias. We then propose a fairness constraint that can be incorporated into classical rewiring techniques to mitigate topological bias. We show that the resulting fairness-constrained rewiring balances fairness and accuracy effectively in graph learning tasks.},
     section = {NeurReps 2025},
 }
 
@@ -322,7 +322,7 @@
   title = {Neural Manifold Geometry Encodes Feature Fields},
   author = {Yocum, Julian and Allen, Cameron and Olshausen, Bruno and Russell, Stuart},
   pages = {770-791},
-    abstract = {Neural networks represent concepts, or ``features'', but the general nature of these representations remains poorly understood. Previous approaches treat features as scalar-valued random variables. However, recent evidence for emergent world models motivates investigating when and how neural networks represent more complex structures. In this work, we formalize and study $\textit{feature fields}$—function-valued features defined over manifolds and other topological spaces corresponding to the underlying world (e.g., value functions, belief distributions). We introduce $\textit{linear field probing}$, a method that extends linear probing to extract feature fields from neural activations. Whereas a linear probe maps scalar features to individual points in activation space, a linear field probe embeds the topological space of a feature field into activation space. We prove that the geometry of this embedding fully defines the space of linearly representable functions for a given feature field. We empirically study feature fields of various topologies using linear field probing and present evidence of their emergence in transformers. This work establishes a formal connection between geometry and representation in neural networks.},
+    abstract = {Neural networks represent concepts, or ``features'', but the general nature of these representations remains poorly understood. Previous approaches treat features as scalar-valued random variables. However, recent evidence for emergent world models motivates investigating when and how neural networks represent more complex structures. In this work, we formalize and study $\textit{feature fields}$---function-valued features defined over manifolds and other topological spaces corresponding to the underlying world (e.g., value functions, belief distributions). We introduce $\textit{linear field probing}$, a method that extends linear probing to extract feature fields from neural activations. Whereas a linear probe maps scalar features to individual points in activation space, a linear field probe embeds the topological space of a feature field into activation space. We prove that the geometry of this embedding fully defines the space of linearly representable functions for a given feature field. We empirically study feature fields of various topologies using linear field probing and present evidence of their emergence in transformers. This work establishes a formal connection between geometry and representation in neural networks.},
     section = {NeurReps 2025},
 }
 
@@ -334,22 +334,22 @@
     section = {NeurReps 2025},
 }
 
-@InProceedings{azeglio2024,
+@InProceedings{azeglio24,
     title = {Preface},
     author = {Azeglio, Simone and Tolooshams, Bahareh and van de Geijn, Chase and Shewmake, Christian and Sanborn, Sophia and Miolane, Nina},
     pages = {viii-xii},
     section = {NeurReps 2024},
 }
 
-@InProceedings{karella2024,
+@InProceedings{karella24,
     title = {Harmformer: Harmonic Networks Meet Transformers for Continuous Roto-Translation Equivariance},
-    author = {Karella, Tomáš and Harmanec, Adam and Kotera, Jan and Blažek, Jan and Šroubek, Filip},
+    author = {Karella, Tom\'a\v{s} and Harmanec, Adam and Kotera, Jan and Bla\v{z}ek, Jan and \v{S}roubek, Filip},
     pages = {884-919},
     abstract = {Convolutional Neural Networks exhibit inherent equivariance to image translation, leading to efficient parameter and data usage, faster learning, and improved robustness. The concept of translation equivariant networks has been successfully extended to rotation transformation using group convolution for discrete rotation groups and harmonic functions for the continuous rotation group encompassing $360^\circ$. We explore the compatibility of the Self-Attention mechanism with full rotation equivariance, in contrast to previous studies that focused on discrete rotation. We introduce the Harmformer, a harmonic transformer with a convolutional stem that achieves equivariance for both translation and continuous rotation. Accompanied by an end-to-end equivariance proof, the Harmformer not only outperforms previous equivariant transformers, but also demonstrates inherent stability under any continuous rotation, even without seeing rotated samples during training.},
     section = {NeurReps 2024},
 }
 
-@InProceedings{sonthalia2024,
+@InProceedings{sonthalia24,
     title = {RelWire: Metric Based Rewiring},
     author = {Sonthalia, Rishi and Gilbert, Anna C. and Durham, Matthew Gentry},
     pages = {920-947},
@@ -357,7 +357,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{fitz2024,
+@InProceedings{fitz24,
     title = {Hidden Holes: topological aspects of language models},
     author = {Fitz, Stephen and Romero, Peter and Schneider, Jiyan Jonas},
     pages = {948-980},
@@ -365,7 +365,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{lewandowski2024,
+@InProceedings{lewandowski24,
     title = {CantorNet: A Sandbox for Testing Geometrical and Topological Complexity Measures},
     author = {Lewandowski, Michal and Eghbalzadeh, Hamid and Moser, Bernhard A.},
     pages = {981-995},
@@ -373,15 +373,15 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{yang2024,
+@InProceedings{yang24,
     title = {Theoretical Insights into Line Graph Transformation on Graph Learning},
     author = {Yang, Fan and Huang, Xingyue},
     pages = {996-1016},
-    abstract = {Line graph transformation has been widely studied in graph theory, where each node in a line graph corresponds to an edge in the original graph. This has inspired a series of graph neural networks (GNNs) applied to transformed line graphs, which have proven effective in various graph representation learning tasks. However, there is limited theoretical study on how line graph transformation affects the expressivity of GNN models. In this study, we focus on two types of graphs known to be challenging to the Weisfeiler-Leman (WL) tests: Cai-Fürer-Immerman (CFI) graphs and strongly regular graphs, and show that applying line graph transformation helps exclude these challenging graph properties, thus potentially assist WL tests in distinguishing these graphs. We empirically validate our findings by conducting a series of experiments that compare the accuracy and efficiency of graph isomorphism tests and GNNs on both line-transformed and original graphs across these graph structure types.},
+    abstract = {Line graph transformation has been widely studied in graph theory, where each node in a line graph corresponds to an edge in the original graph. This has inspired a series of graph neural networks (GNNs) applied to transformed line graphs, which have proven effective in various graph representation learning tasks. However, there is limited theoretical study on how line graph transformation affects the expressivity of GNN models. In this study, we focus on two types of graphs known to be challenging to the Weisfeiler-Leman (WL) tests: Cai-F\"urer-Immerman (CFI) graphs and strongly regular graphs, and show that applying line graph transformation helps exclude these challenging graph properties, thus potentially assist WL tests in distinguishing these graphs. We empirically validate our findings by conducting a series of experiments that compare the accuracy and efficiency of graph isomorphism tests and GNNs on both line-transformed and original graphs across these graph structure types.},
     section = {NeurReps 2024},
 }
 
-@InProceedings{pegios2024,
+@InProceedings{pegios24,
     title = {Counterfactual Explanations via Riemannian Latent Space Traversal},
     author = {Pegios, Paraskevas and Feragen, Aasa and Hansen, Andreas Abildtrup and Arvanitidis, Georgios},
     pages = {1017-1032},
@@ -389,7 +389,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{fan2024,
+@InProceedings{fan24,
     title = {Probabilistic Nested Homogeneous Spaces for Dimensionality Reduction},
     author = {Fan, Xiran and Vemuri, Baba C.},
     pages = {1033-1047},
@@ -397,7 +397,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{balla2024,
+@InProceedings{balla24,
     title = {A Cosmic-Scale Benchmark for Symmetry-Preserving Data Processing},
     author = {Balla, Julia and Mishra-Sharma, Siddharth and Cuesta-Lazaro, Carolina and Jaakkola, Tommi and Smidt, Tess},
     pages = {1048-1066},
@@ -405,7 +405,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{nardi2024,
+@InProceedings{nardi24,
     title = {Graph Neural Networks Uncover Geometric Neural Representations in Reinforcement-Based Motor Learning},
     author = {Nardi, Federico and Han, Jinpei and Haar, Shlomi and Faisal, A. Aldo},
     pages = {1067-1085},
@@ -413,7 +413,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{charvin2024,
+@InProceedings{charvin24,
     title = {An Informational Parsimony Perspective on Probabilistic Symmetries},
     author = {Charvin, Hippolyte and Catenacci Volpi, Nicola and Polani, Daniel},
     pages = {1086-1120},
@@ -421,7 +421,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{geniesse2024,
+@InProceedings{geniesse24,
     title = {Visualizing Loss Functions as Topological Landscape Profiles},
     author = {Geniesse, Caleb and Chen, Jiaqing and Xie, Tiankai and Shi, Ge and Yang, Yaoqing and Morozov, Dmitriy and Perciano, Talita and Mahoney, Michael W. and Maciejewski, Ross and Weber, Gunther H.},
     pages = {1121-1135},
@@ -429,7 +429,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{pertigkiozoglou2024,
+@InProceedings{pertigkiozoglou24,
     title = {BiEquiFormer: Bi-Equivariant Representations for Global Point Cloud Registration},
     author = {Pertigkiozoglou, Stefanos and Chatzipantazis, Evangelos and Daniilidis, Kostas},
     pages = {1136-1161},
@@ -437,7 +437,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{choi2024,
+@InProceedings{choi24,
     title = {Geometric Machine Learning on EEG Signals},
     author = {Choi, Benjamin J.},
     pages = {1162-1180},
@@ -445,7 +445,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{mao2024,
+@InProceedings{mao24,
     title = {Klein Model for Hyperbolic Neural Networks},
     author = {Mao, Yidan and Gu, Jing and Werner, Marcus C. and Zou, Dongmian},
     pages = {1181-1205},
@@ -453,7 +453,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{vastola2024,
+@InProceedings{vastola24,
     title = {Dynamical symmetries in the fluctuation-driven regime: an application of Noether's theorem to noisy dynamical systems},
     author = {Vastola, John J.},
     pages = {1206-1218},
@@ -461,7 +461,7 @@
     section = {NeurReps 2024},
 }
 
-@InProceedings{podlaski2024,
+@InProceedings{podlaski24,
     title = {Storing overlapping associative memories on latent manifolds in low-rank spiking networks},
     author = {Podlaski, William F. and Machens, Christian K.},
     pages = {1219-1235},
