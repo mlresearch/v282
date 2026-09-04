@@ -1,0 +1,113 @@
+---
+booktitle: Proceedings of the 4th (2025) and 3rd (2024) NeurIPS Workshops on Symmetry
+  and Geometry in Neural Representations
+shortname: NeurReps
+volume: '282'
+year: '2025'
+start: &1 2024-12-14
+end: &2 2025-12-07
+published: 2026-09-04
+conference_number: '4'
+sections:
+- name: NeurReps 2025
+  title: NeurReps 2025
+- name: NeurReps 2024
+  title: NeurReps 2024
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: neurreps282
+month: 0
+cycles: false
+bibtex_editor: Acosta, Francisco and Azeglio, Simone and Tolooshams, Bahareh and van
+  de Geijn, Chase and Shewmake, Christian and Sanborn, Sophia and Miolane, Nina
+editor:
+- given: Francisco
+  family: Acosta
+- given: Simone
+  family: Azeglio
+- given: Bahareh
+  family: Tolooshams
+- given: Chase
+  family: Geijn
+  prefix: van de
+- given: Christian
+  family: Shewmake
+- given: Sophia
+  family: Sanborn
+- given: Nina
+  family: Miolane
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 4th (2025) and 3rd (2024) NeurIPS Workshops on Symmetry and Geometry in Neural Representations
+    Held in Vancouver, Canada and San Diego, California, USA on 14 December 2024 to 07 December 2025
+
+  Published as Volume 282 by the Proceedings of Machine Learning Research on 04 September 2026.
+
+  Volume Edited by:
+    Francisco Acosta
+    Simone Azeglio
+    Bahareh Tolooshams
+    Chase van de Geijn
+    Christian Shewmake
+    Sophia Sanborn
+    Nina Miolane
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 14 Dec 2024--07 Dec 2025
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v282"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v282
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v282
+email: ''
+conference:
+  name: NeurIPS Workshop on Symmetry and Geometry in Neural Representations
+  url: https://www.neurreps.org
+  location: Vancouver, Canada and San Diego, California, USA
+  dates:
+  - *1
+  - *2
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: neurreps282_clean.bib
+# Site settings
+# Original source:  neurreps282_clean.bib
