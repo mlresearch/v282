@@ -4,8 +4,8 @@ booktitle: Proceedings of the 4th (2025) and 3rd (2024) NeurIPS Workshops on Sym
 shortname: NeurReps
 volume: '282'
 year: '2025'
-start: &1 2024-12-14
-end: &2 2025-12-07
+start: 2024-12-14
+end: 2025-12-07
 published: 2026-09-04
 conference_number: '4'
 sections:
@@ -94,8 +94,8 @@ conference:
   url: https://www.neurreps.org
   location: Vancouver, Canada and San Diego, California, USA
   dates:
-  - *1
-  - *2
+  - 2024-12-14
+  - 2025-12-07
 analytics:
   google:
     tracking_id: UA-92432422-1
